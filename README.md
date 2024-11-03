@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bc26be0f-a350-445b-b5d0-b3b39b5120a9)![image](https://github.com/user-attachments/assets/cae78ea6-30d3-4135-bc52-342df7b3efac)# qb-clothing
+# qb-clothing
 Hola, jugadores. Hoy voy a publicar otro script de UI. Se trata de una versión modificada de <a href="https://github.com/qbcore-framework/qb-clothing">qb-clothing</a> y es totalmente gratuita. Soy un desarrollador novato por lo que es posible que tenga fallos... si quieren que cree UI personalizadas para sus servidores FiveM, no duden en ponerse en contacto conmigo.
 
 <h1>Caracteristicas (Exactamente las mismas del qb-clothing)</h1>
@@ -33,6 +33,5 @@ Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
 
 <h2>Menú de tiendas de ropa</h2>
 
-![image](https://github.com/user-attachments/assets/7ab90ab4-af3c-4bc7-bf16-040dd0089b2d)
-![image](https://github.com/user-attachments/assets/7a861186-f129-47f3-a868-5612e290ac7c)
-![image](https://github.com/user-attachments/assets/5053cae5-4a02-45f7-86fb-7b1600f1a2f4)
+![image](https://github.com/user-attachments/assets/bc26be0f-a350-445b-b5d0-b3b39b5120a9)
+![image](https://github.com/user-attachments/assets/cae78ea6-30d3-4135-bc52-342df7b3efac)
