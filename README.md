@@ -26,4 +26,6 @@ Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
 
 <h1>Fotos</h1>
 <h2>Menú al entrar al server</h2>
+
 ![image](https://github.com/user-attachments/assets/0cab2bc2-da4b-4740-a545-c272278e7a09)
+
