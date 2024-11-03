@@ -12,5 +12,18 @@ Opcion de guardar Outfits
 <h3>Comandos:</h3>
 /hat, /glasses, /mask...(Los predeterminados del propio script)
 <h3>Comandos añadidos:</h3>
-/fixpj - Para abrir el menú de ropa basico. (Ropa, Accesorios, Peluqueria, Outfits guardados)
+/fixpj - Refrescar la skin del jugador.
+/skin (Admin Only) - Para abrir el menú de ropa basico (Ropa, Accesorios, Peluqueria, Outfits guardados).
 /charin - Para abrir el menú de ropa completo, con modificacion de rostro/cuerpos....
+
+<h1>Manual de instalación</h1>
+Descarga el script y metelo donde tengas el resto de scripts de [qb].
+En caso de no tener qb-clothing, importar qb-clothing.sql en tu base de datos. Si ya tenia otro qb-clothing puede pasar de este paso.
+Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
+
+<h1>Video</h1>
+
+
+<h1>Fotos</h1>
+<h2>Menú al entrar al server</h2>
+![image](https://github.com/user-attachments/assets/0cab2bc2-da4b-4740-a545-c272278e7a09)
