@@ -29,8 +29,8 @@ Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
 <table>
   <tr>
     <td>![image](https://github.com/user-attachments/assets/0cab2bc2-da4b-4740-a545-c272278e7a09)</td>
-    <td></td>
+    <td>![image](https://github.com/user-attachments/assets/0cab2bc2-da4b-4740-a545-c272278e7a09)</td>
   </tr>
 </table>
 
-![image](https://github.com/user-attachments/assets/0cab2bc2-da4b-4740-a545-c272278e7a09)
+
