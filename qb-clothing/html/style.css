@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+    height: 100vh;
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 5px;
+    background: rgb(38, 42, 54);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(23, 23, 23);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 157);
+    border-radius: 4px;
+    border: 3px solid rgb(23, 23, 23);
+}
+
+.rotacion {
+    display: none;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    top: 10.5%;
+    right: 5px;
+    height: 20px;
+    width: 38vh;
+    color: white;
+    padding: 10px;
+    letter-spacing: 0.1vh;
+    text-shadow: 0 0 10px white;
+}
+
+.atention {
+    display: none;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    bottom: 15.4%;
+    left: 6px;
+    color: white;
+    background: rgb(255, 0, 157);
+    border: .5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px rgb(255, 0, 157);
+    padding: 10px;
+}
+
+.atention2 {
+    display: none;
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    bottom: 5%;
+    left: 5px;
+    width: 36vh;
+    padding: 10px;
+    color: white;
+    background: rgba(17, 24, 34, 0.9);
+    border: .5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 5px black;
+}
+
+.atention2 strong {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.541);
+}
+
+.clothing-menu-container {
+    display: none;
+    position: absolute;
+    height: 70vh;
+    width: 38vh;
+    margin-right: 5px;
+    right: -25vw;
+    top: 50%;
+    padding: 10px;
+    transform: translateY(-50%);
+    background: rgba(17, 24, 34, 0.9);
+    border: .5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    box-shadow: 0 0 .8vh black;
+}
+
+.clothing-menu-header {
+    position: relative;
+    height: 6vh;
+    width: 100%;
+}
+
+/* Botones superior */
+.clothing-menu-header-btn {
+    position: relative;
+    height: 50%;
+    float: left;
+    color: white;
+    background: rgba(255, 255, 255, 0.226);
+    border: 1.5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.clothing-menu-header-btn:hover {
+    cursor: pointer;
+    background: rgb(66, 66, 66);
+    transition: all .2s linear;
+}
+
+.selected {
+    color: black;
+    background: lightgray;
+    transition: all .5s linear;
+}
+
+.clothing-menu-header-btn>p {
+    text-transform: uppercase;
+    font-size: 1.1vh;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Botones Camara */
+.clothing-menu-header-cameras {
+    position: absolute;
+    width: 90%;
+    top: 4.5vh;
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.clothing-menu-header-camera-btn {
+    position: relative;
+    height: 55%;
+    width: 24%;
+    color: #ededed;
+    text-align: center;
+    line-height: 3.7vh;
+    transition: all .3s linear;
+    margin: 0 30px;
+}
+
+.selected-cam {
+    color: black;
+}
+
+.clothing-menu-header-camera-btn:hover {
+    color: #444444;
+    cursor: pointer;
+}
+
+.clothing-menu-header-camera-btn>i {
+    font-size: 1.4vh;
+}
+
+.clothing-menu-roomOutfits-container {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 59vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-myOutfits-container {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 59vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-outfit-option-button {
+    position: relative;
+    text-align: center;
+    line-height: 4.8vh;
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    top: 2.3vh;
+    background-color: #dc143c;
+    border-radius: 0.75vh;
+    transition: all .3s linear;
+}
+
+.clothing-menu-outfit-option-button:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.clothing-menu-outfit-option-button>p {
+    color: #ededed;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1vh;
+    font-size: 1vh;
+}
+
+.clothing-menu-myOutfit-option-button {
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 6vh;
+    float: left;
+    left: 5vh;
+    top: 3vh;
+    background: rgba(255, 255, 255, 0.226);
+    border: 1.5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+
+.clothing-menu-myOutfit-option-button:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.clothing-menu-myOutfit-option-button>p {
+    color: #ededed;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1vh;
+    font-size: 1.3vh;
+}
+
+.clothing-menu-myOutfit-option-button-remove {
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 6vh;
+    float: left;
+    right: 5vh;
+    top: 3vh;
+    background: rgba(255, 255, 255, 0.226);
+    border: 1.5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+
+.clothing-menu-myOutfit-option-button-remove:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.clothing-menu-myOutfit-option-button-remove>p {
+    color: #ededed;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1vh;
+    font-size: 1.3vh;
+}
+
+.clothing-menu-character-container {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 59vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-clothing-container {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 59vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-accessoires-container {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 59vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-hair-container {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 59vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-option {
+    position: relative;
+    width: 97%;
+    height: 13%;
+    background: rgba(255, 255, 255, 0.226);
+    margin-bottom: 7px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+/* Titulos de cada apartado */
+.clothing-menu-option-header {
+    color: white;
+    padding: 0.8vh;
+    width: 100%;
+    margin-top: -0.5em;
+    margin-bottom: -15px;
+}
+
+.clothing-menu-option-header>p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+    font-size: 1.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.541);
+}
+
+.clothing-menu-option-item {
+    position: relative;
+    float: left;
+    height: 59%;
+    width: 40%;
+    margin-left: 2.4vh;
+    margin-top: 1vh;
+}
+
+.clothing-menu-option-item-left {
+    position: absolute;
+    bottom: 0;
+    left: 1.3vh;
+    height: 30px;
+    width: 30px;
+    line-height: 3.5vh;
+    color: rgb(255, 0, 157);
+    background: white;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    transition: all .3s linear;
+}
+
+.clothing-menu-option-item-left:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.clothing-menu-option-item-right {
+    position: absolute;
+    bottom: 0;
+    right: 1.3vh;
+    height: 30px;
+    width: 30px;
+    line-height: 3.5vh;
+    color: rgb(255, 0, 157);
+    background: white;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    transition: all .3s linear;
+}
+
+.clothing-menu-option-item-right:hover {
+    color: white;
+    background: #444444;
+    cursor: pointer;
+}
+
+.item-number {
+    position: absolute;
+    width: 40%;
+    height: 28px;
+    bottom: 0;
+    left: 4vh;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3vh;
+    letter-spacing: 0.1vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    border: none;
+    outline: none;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.541);
+    transition: all .3s linear;
+}
+
+.clothing-menu-option-item-header {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+    font-weight: bolder;
+    font-size: 1.2vh;
+    font-style: italic;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clothing-menu-option-item-header>p {
+    padding: 0.2vh;
+}
+
+.clothing-menu-option-buttons {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between; 
+    bottom: 0;
+    left: 0;
+    width: 98%;
+    height: 3vh;
+    padding: 5px;
+}
+
+.clothing-menu-option-button {
+    position: relative;
+    height: 100%;
+    width: 27%;
+    transition: all .3s linear;
+    background: rgba(255, 255, 255, 0.226);
+    border: 1.5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+}
+
+.clothing-menu-option-button:hover {
+    cursor: pointer;
+    background: rgb(66, 66, 66);
+    transition: all .2s linear;
+}
+
+.clothing-menu-option-button>p {
+    line-height: 3.1vh;
+    font-size: 1.3vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1vh;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothing-menu-option-button>p svg {
+    margin-right: 0.5vh;
+}
+
+.clothing-menu-save-outfit-name {
+    display: none;
+    position: relative;
+    top: 83%;
+    width: 36vh;
+    height: 12vh;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.clothing-menu-save-outfit-name-header {
+    position: relative;
+    width: 91%;
+    height: 25%;
+    padding-left: 15px;
+    line-height: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(255, 0, 157);
+    border: .5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px rgb(255, 0, 157);
+    text-shadow: 0 0 10px white;
+}
+
+#outfit-name {
+    position: absolute;
+    width: 88.1%;
+    height: 40%;
+    margin: 0 auto; 
+    top: 28%;
+    padding-left: 15px;
+    line-height: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(17, 24, 34, 0.9);
+    border-top:none;
+    border-left: .5px solid rgba(0, 0, 0, 0.253);
+    border-right: .5px solid rgba(0, 0, 0, 0.253);
+    border-bottom: .5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all .3s linear;
+}
+
+#outfit-name {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1vh;
+    font-weight: bold;
+}
+
+#outfit-name::placeholder {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vh;
+    letter-spacing: 0.1vh;
+    font-weight: bold;
+}
+
+.clothing-menu-save-outfit-name-buttons {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between; 
+    bottom: 0;
+    left: 0;
+    width: 98%;
+    height: 3vh;
+    padding: 5px;
+}
+
+.clothing-menu-save-outfit-name-button {
+    position: relative;
+    width: 43%;
+    height: 85%;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 2.8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(255, 255, 255);
+    border: 1.5px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all .3s linear;
+}
+
+.clothing-menu-save-outfit-name-button:hover {
+    cursor: pointer;
+    background: rgb(66, 66, 66);
+    transition: all .2s linear;
+}
+
+.clothing-menu-save-outfit-name-button>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3vh;
+    letter-spacing: 0.1vh;
+    line-height: 3.1vh;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothing-menu-save-outfit-name-header>p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7vh;
+    letter-spacing: 0.1vh;
+    text-transform: uppercase;
+    color: #ededed;
+    font-weight: bold;
+}
+
+.change-camera-buttons {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 7vh;
+    width: 20vh;
+}
+
+.change-camera-button {
+    position: relative;
+    height: 80%;
+    width: 50%;
+    float: left;
+    background-color: rgb(23 23 23 / 80%);
+    text-align: center;
+    transition: 0.08s;
+}
+
+.change-camera-button:hover {
+    background: #dc143c;
+    cursor: pointer;
+}
+
+.change-camera-button>i {
+    font-size: 3vh;
+    color: #ededed;
+    line-height: 5.5vh;
+}
+
+.change-camera-footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    background: #dc143c;
+    line-height: 1.5vh;
+    border-bottom-left-radius: .8vh;
+    border-bottom-right-radius: .8vh;
+}
+
+.change-camera-footer>p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 0.8vh;
+    text-transform: uppercase;
+    color: #ededed;
+    letter-spacing: 0.1vh;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: grey;
+    border-radius: 200px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    position: absolute;
+    left: 0 !important;
+    top: 1.5em !important;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 0, 157);
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 0, 157);
+    border: 3px solid rgb(23, 23, 23);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.facemix-labels {
+    display: block;
+}
+
+.facemix-label-left {
+    font-size: xx-small;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+    color: #ededed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.facemix-label-right {
+    font-size: xx-small;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+    color: #ededed;
+    bottom: 0px;
+    right: 0px;
+}
