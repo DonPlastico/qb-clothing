@@ -23,6 +23,7 @@ Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
 
 <h1>Video</h1>
 
+<a href="">![image](https://github.com/user-attachments/assets/125cb422-1650-437a-878c-b33746e2989d)</a>
 
 <h1>Fotos</h1>
 <h2>Menú al entrar al server</h2>
