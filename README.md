@@ -34,6 +34,6 @@ Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
 
 <h2>Menú de tiendas de ropa</h2>
 
-![image](https://github.com/user-attachments/assets/bc26be0f-a350-445b-b5d0-b3b39b5120a9)
+![image](https://github.com/user-attachments/assets/91472335-632f-45e2-8c16-505817f2aaef)
 ![image](https://github.com/user-attachments/assets/cae78ea6-30d3-4135-bc52-342df7b3efac)
 ![image](https://github.com/user-attachments/assets/fde046d7-b1ec-44e4-aef2-b53336e6add3)
