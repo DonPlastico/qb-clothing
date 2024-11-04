@@ -1,5 +1,5 @@
 # qb-clothing edited UI
-Hola, jugadores. Hoy voy a publicar otro script de UI. Se trata de una versión modificada de <a href="https://github.com/qbcore-framework/qb-clothing">qb-clothing</a> y es totalmente gratuita. Soy un desarrollador novato por lo que es posible que tenga fallos... si quieren que cree UI personalizadas para sus servidores FiveM, no duden en ponerse en contacto conmigo.
+Hola, jugadores. Hoy voy a publicar otro script de UI. Se trata de una versión modificada de <a href="https://github.com/qbcore-framework/qb-clothing">qb-clothing</a> y es totalmente gratuita. Soy un desarrollador novato por lo que es posible que tenga fallos... si quieren que cree UI personalizadas para tus servidores FiveM, no duden en ponerse en contacto conmigo.
 
 <h1>Caracteristicas (Exactamente las mismas del qb-clothing)</h1>
 Configuración detallada de nariz, mentón, mandíbula, mejillas, etc.
