@@ -17,8 +17,8 @@ Opcion de guardar Outfits <br>
 /charin - Para abrir el menú de ropa completo, con modificacion de rostro/cuerpos....
 
 <h1>Manual de instalación</h1>
-Descarga el script y metelo donde tengas el resto de scripts de [qb].
-En caso de no tener qb-clothing, importar qb-clothing.sql en tu base de datos. Si ya tenia otro qb-clothing puede pasar de este paso.
+Descarga el script y metelo donde tengas el resto de scripts de [qb]. <br>
+En caso de no tener qb-clothing, importar qb-clothing.sql en tu base de datos. Si ya tenia otro qb-clothing puede pasar de este paso. <br>
 Añadelo en tu server.cfg como qb-clothing, despues de qb-core.
 
 <h1>Video</h1>
